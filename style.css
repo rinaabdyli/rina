@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4d4d; /* Ngjyrë e kuqe më e çelët */
+    background-color: #2f2163; /* Ngjyrë e kuqe më e çelët */
     transform: scale(1.05);
 }
 
@@ -88,15 +88,23 @@ button:hover {
     max-width: 600px;
     border-radius: 5px;
 }
-.btn-logout {
-    padding: 10px 20px;
-    background-color: #ff4d4d; /* Ngjyra e kuqe */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+/* Forma e butonit Borrow */
+form {
+    margin-top: 10px;
 }
 
-.btn-logout:hover {
-    background-color: #ff1a1a; /* Ngjyrë më e errët kur kalon miu mbi butonin */
+button {
+    background-color: #a00000; /* Ngjyrë e kuqe e errët */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff4d4d; /* Ngjyrë e kuqe më e çelët */
+    transform: scale(1.05);
 }
