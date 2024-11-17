@@ -1,0 +1,110 @@
+/* Stili për sfondin dhe trupin e faqes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffe5e5; /* Sfond i lehtë i kuq */
+    color: #333;
+}
+
+/* Kontejneri kryesor */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Titulli kryesor i faqes */
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #a00000; /* E kuqe e errët */
+    margin-bottom: 20px;
+}
+
+/* Seksioni i librave */
+.books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Karta e librave */
+.book-item {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Titulli dhe përshkrimi i librave */
+.book-item h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    color: #555;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Butoni për Borrow/Delete */
+button {
+    background-color: #a00000; /* Ngjyrë e kuqe e errët */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2f2163; /* Ngjyrë e kuqe më e çelët */
+    transform: scale(1.05);
+}
+
+/* Notifikimet */
+.notification {
+    background: #ffcccc;
+    color: #a00000;
+    border: 1px solid #a00000;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+/* Forma e butonit Borrow */
+form {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #a00000; /* Ngjyrë e kuqe e errët */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff4d4d; /* Ngjyrë e kuqe më e çelët */
+    transform: scale(1.05);
+}
